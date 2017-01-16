@@ -1,2 +1,2 @@
 # codewars
-my codewars solutions
+My [codewars](https://www.codewars.com/) solutions.
