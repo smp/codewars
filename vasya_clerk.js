@@ -15,7 +15,28 @@ Return YES, if Vasya can sell a ticket to each person and give the change. Other
   // else
     // give change to person and add cost to register
 
+function makeChange (register, bill) {
+
+}
+
+
 function tickets (peopleInLine) {
+  var cost = 25 // set the price
+  var cashRegister = [0, 0, 0] // store money in our cash register
+
+
+}
+
+
+
+
+console.log(tickets([25,25,25,100,25,25,25,100,25,50,25,100,25,25,25,100,25,25,50,100,25,50,50,100]))
+
+// Why do these fail?
+//Line = 25,25,25,100,25,25,25,100,25,50,25,100,25,25,25,100,25,25,50,100,25,50,50,100 - Expected: 'NO', instead got: 'YES'
+//Line = 25,25,50,100,25,25,25,100,25,50,25,100,25,25,25,100 - Expected: 'YES', instead got: 'NO'
+/*
+function attempt (peopleInLine) {
   // store money in our cash register
   var cost = 25
   var cashRegister = 0
@@ -30,10 +51,4 @@ function tickets (peopleInLine) {
     }
   }
   return ('YES')
-}
-
-console.log(tickets([25,25,25,100,25,25,25,100,25,50,25,100,25,25,25,100,25,25,50,100,25,50,50,100]))
-
-// Why do these fail?
-//Line = 25,25,25,100,25,25,25,100,25,50,25,100,25,25,25,100,25,25,50,100,25,50,50,100 - Expected: 'NO', instead got: 'YES'
-//Line = 25,25,50,100,25,25,25,100,25,50,25,100,25,25,25,100 - Expected: 'YES', instead got: 'NO'
+} */
