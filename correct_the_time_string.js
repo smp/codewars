@@ -56,5 +56,5 @@ function timeCorrect (t) {
   return (String("0" + hour).slice(-2) + ':' + String("0" + min).slice(-2) + ':' + String("0" + sec).slice(-2))
 }
 
-
-console.log(timeCorrect('24:60:10'))
+// local test
+// console.log(timeCorrect('24:60:10'))
